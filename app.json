@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Tarea8",
+    "slug": "Tarea8",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/iconoSeguridad.jpg",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/iconoSeguridad.jpg",
+        "backgroundColor": "#000"
+      },
+      "package": "com.hola_mundo_12.Tarea8"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c39217d1-a7ca-4305-8b1e-c6c430dca70d"
+      }
+    },
+    "owner": "hola_mundo_12"
+  }
+}
